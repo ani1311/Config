@@ -1,0 +1,1 @@
+/home/aniket/.fzf/shell/key-bindings.fish

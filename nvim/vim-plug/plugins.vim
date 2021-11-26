@@ -10,8 +10,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " File Explorer
-    Plug 'scrooloose/NERDTree'
-    " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes
     Plug 'joshdick/onedark.vim'
@@ -23,5 +21,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
    
     " Comment out stuff
     Plug 'preservim/nerdcommenter'
+    "File nav Ranger
+    Plug 'kevinhwang91/rnvimr'
+
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
+
+    " Go plugins
+    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+    "Focused writing
+    Plug 'junegunn/goyo.vim'
 
 call plug#end()
