@@ -34,4 +34,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Focused writing
     Plug 'junegunn/goyo.vim'
 
+    " Haskell Plugins
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
